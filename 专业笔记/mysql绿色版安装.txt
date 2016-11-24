@@ -1,0 +1,29 @@
+mysql绿色版安装
+
+
+1、把安装目录配置path。
+	bin目录配置在path
+2、建立my.ini或者直接修改my-default.ini
+	# 设置mysql的安装目录
+	basedir=D:/soft/mysql-5.6.17-winx64
+	# 设置mysql数据库的数据的存放目录，必须是data
+	datadir=D:/soft/mysql-5.6.17-winx64/data
+	# mysql端口
+	port=3306
+	# 字符集
+	character_set_server=utf8
+	sql_mode=NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
+
+3、用管理员身份cmd进入dos界面
+
+	mysqld -install
+
+	如果出现“系统2”错误
+
+	先mysqld -remove，后在mysqld -install
+
+
+4、更新密码
+   use mysql；
+   修改密码：update mysql.user set password=PASSWORD('mysql') where User='root';
+   刷新密码：flush privileges; 

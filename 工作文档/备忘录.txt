@@ -1,0 +1,63 @@
+
+mstsc
+生产环境
+192.168.19.201 用户名sunaihua 密码HTr53GTfdfR%fee
+
+测试环境
+192.168.19.202 用户名administrator 密码Nntjz@nnstock66
+
+192.168.19.203  administrator |qyWXD10y5Ei+
+
+192.168.19.203/administrator : |qyWXD10y5Ei+
+
+
+
+svn 用户名xiongpeng  密码 X#p@asdf%fv
+vpn 用户名xiongpeng 密码F7Hdfg67bgf%TGfg
+
+
+用户名xiongpeng
+固定密码Xp55
+socket编程, database 集群应用以及优化经验
+
+192.168.19.203  administrator |qyWXD10y5Ei+
+Validation
+?id=123&kehu=222
+/fund/520228----460003-----
+新思路：
+1、得到所有的参数
+2、转化成字符串数组
+3、直接传入数组
+4、可以将对功能的判断传递到下一个层次，进行更为清晰的分离
+
+Split在避免后面两位正则表达式出现的问题
+JFinal也出现的该问题
+但是直接用三元表达式给出了null
+sqlserver密码
+VMware Autheffication
+Docker+nginx+git+linux
+node+redis+mysql
+Jackson，fastjson，gson
+电话：15874086193
+QQ：249078976
+Email：sunlin@szkingdom.com
+问题：
+交易确认查询
+认申购(520003),赎回(520004),转换(520005)接口添加gruopid组合标识入参，组合基金下单必传，普通基金下单传空
+查询历史交易申请(520026)，查询历史交易确认(520027)接口添加groupid组合标识,protocolno超级转换协议号，businesskind业务种类出参。
+protocolno超级转换协议号==serialno
+Eclipse  neon
+
+2016062700000010
+
+环境
+工具---产品
+启发
+基本
+历史
+价值
+科学
+道德
+常识  -人类简史
+卓老板聊科技
+经历了多少次饥寒交迫和风餐露宿，在她的心里，故乡早已被蹂躏成一张破败不堪的旧邮票，印在上面的风景人物也早已面目全非。

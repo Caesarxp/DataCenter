@@ -1,0 +1,97 @@
+1、String  set  get
+2、Hash    HMSET  HGETALL
+3、List 有序  lpush   lrange
+	不允许重复4、set  无序  sadd     smembers
+	          5、zset 有序  zadd	ZRANGEBYSCORE
+
+6、HyperLogLog 计数器     PFADD
+
+远程连接redis      $ redis-cli -h host -p port -a password	$redis-cli -h 127.0.0.1 -p 6379 -a "mypass"
+
+
+7、发布订阅	1）建立频道：subcribe
+			2）发布到频道：publish
+
+8、 EVAL "return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}" 2 key1 key2 first second
+
+
+<dependency>
+
+        <groupId>org.redisson</groupId>
+
+        <artifactId>redisson</artifactId>
+
+        <version>1.0.2</version>
+
+    </dependency>
+
+   
+
+    <dependency>
+
+     <groupId>org.slf4j</groupId>
+
+     <artifactId>slf4j-log4j12</artifactId>
+
+     <version>1.7.7</version>
+
+     </dependency>
+
+
+     熟悉Nginx配置，熟悉MySQL数据库；
+
+     熟悉MVC模式，熟练掌握Spring，struts，hibernate或ibatis等框架；
+
+     熟悉消息中间件，有kafka，RabbitMQ等消息系统应用开发经验
+     熟悉dubbo，thrift等RPC服务化框架，能独立阅读相关rpc框架源码并有相关应用开发经验者优先
+     熟练使用mysql，熟悉数据库设计模式，有相关sql调优、 性能优化经验，有分库分表及数据迁移经验者优先
+     熟悉多种NoSQL数据库，有Redis，memcached设计、开发、测试、维护和调优经验,有集群设计经验者优先
+     熟悉linux操作系统，能熟练使用vim ，awk等常见linux命令，有shell编程经验者优先
+     熟悉海量数据离线分析、实时计算等相关技术，有hadoop,spark,storm，hbase等相关使用经验者优先
+     对java多线程技术有较深理解，对高并发、分布式网络通信和jvm调优有深入研究和了解，有类似开发经验者优先
+     熟悉领域驱动设计（DDD）或测试驱动开发（TDD）经验的优先。了解持续集成，熟悉持续集成的工作模式；
+     精通J2EE体系结构，熟悉主流的开源框架，具有较强的research能力和代码走读能力；
+
+
+     熟悉WEBSPHERE,WEBLOGIC等常用应用服务器；
+
+     熟练应用常见数据库Oracle、DB2，具有SQL数据库索引优化、查询优化和存储优化经验，数据缓存技术的经验。
+
+     有Unix、Linux使用经验者优先考虑。
+
+     有大型网站开发或html5移动应用开发工作经验者优先考虑；
+
+     有JQuery组件开发经验者优先。
+
+     熟悉脚本编程(Shell/Perl/Php/Python一种)；  
+
+
+
+     2年以上Java服务器开发经验，精通Java及面向对象设计开发，熟悉主流web框架
+
+熟悉网络编程，熟悉TCP/IP协议，熟悉互联网应用协议
+
+熟悉Redis、Zookeeper、MySQL、Elastic Search、RPC框架等开源系统者优先
+
+有前端开发经验者优先
+
+
+1.三年以上java后端开发经验；
+
+2.熟练掌握java及面向对象设计开发，对部分java技术有深入研究，研究过优秀开源软件的源码并有心得者优先。
+
+3.熟练掌握mysql数据库原理及常用优化方法。有Lucene，Nosql产品（redis/mongodb等）的产品设计和应用经验优先。
+
+4.较强的沟通能力，团队合作精神，以及表达能力；乐于分享自己的经验积累，成长体会，有高质量的博客优先；
+
+5.理解技术贡献与业务贡献并重，有过旅游相关系统项目、开发的经验优先（有携程，去哪儿工作经验最佳）；
+
+6.有开放平台相关系统经验者优先。
+
+
+本科及以上学历，计算机相关专业，具备较好的编程能力训练和质量意识 ；
+3年以上大型互联网电子商务系统或者其他大型企业应用系统开发相关经验；具备扎实的计算机基础知识、极强的编程能力和问题解决能力 
+对SOA有认知、熟悉 Java 应用框架及相关技术(包括Java/Spring/Spring MVC/MyBatis/Cache/Messaging/Workflow等)和工具链、熟悉 Linux/MySQL/NoSQL 等 
+有互联网高并发处理经验，独立负责多个有互联网特点的业务模块有定位与处理线上问题的丰富经验 
+研究过 缓存、jvm 调优、序列化、nio、RPC 调用框架等，并且有相关实践经验 
+善于交流，有良好的团队合作精神和协调沟通能力; 能承受一定的工作强度与压力

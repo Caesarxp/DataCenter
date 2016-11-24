@@ -1,0 +1,16 @@
+1Controller类
+1、获得目的值的参数值
+if (index < 0)
+			return getPara();
+		
+		if (urlParaArray == null) {
+			if (urlPara == null || "".equals(urlPara))	// urlPara maybe is "" see ActionMapping.getAction(String)
+				urlParaArray = NULL_URL_PARA_ARRAY;
+			else
+				urlParaArray = urlPara.split(URL_PARA_SEPARATOR);
+			
+			for (int i=0; i<urlParaArray.length; i++)
+				if ("".equals(urlParaArray[i]))
+					urlParaArray[i] = null;
+		}
+		return urlParaArray.length > index ? urlParaArray[index] : null;
